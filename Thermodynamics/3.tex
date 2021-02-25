@@ -1,0 +1,235 @@
+\documentclass[12pt]{article}
+\usepackage{mathtext}
+\usepackage{hyperref}
+\usepackage[warn]{mathtext}
+\usepackage{mathtext}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+
+
+\begin{document}
+
+{\underline{\bf Изменение энтропии в необратимых процессах. }
+
+{\underline{\bf ТД потенциалы.}\\
+
+Задачи:4.75, 4.43/44, 5.75, 5.38  \\
+
+{\bf ЗАДАНИЕ:4.47, Т6, 5.32, 5.54}
+
+\vspace{0.5cm}
+
+{\bf 1) Изменение энтропии в необратимых процессах. }\\
+
+В обратимых процессах $S_2-S_1=\int\limits_1^2\frac{\delta Q}{T}$ \\
+
+В необратимых процессах $S_2-S_1>\int\limits_1^2\frac{\delta Q}{T}$ \\
+
+Обратимым процессом называется переход системы из одного равновесного состояния в другое, который можно проводить в обратном направлении в той же последовательности промежуточных равновесных состояний. При этом система вместе с окружающими телами возвращаются к исходному состоянию.\\
+
+Если система находится в состоянии равновесия во время процесса, она называется квазистатической.\\
+
+Когда рабочее тело тепловой машины контактирует с тепловым резервуаром, температура которого неизменна во время всего процесса, то только изотермический квазистатический процесс считается обратимым, так как протекает с бесконечно малой разницей температур рабочего резервуара. Если имеется два резервуара, причем с разными температурами, тогда обратимым путем можно провести процессы на двух изотермических участках.\\
+
+Так как адиабатический процесс проводится в обоих направлениях (сжатие и расширение), наличие кругового процесса с двумя изотермами и двумя адиабатами (цикл Карно)  это единственный обратимый круговой процесс, где рабочее тело контактируется с двумя тепловыми резервуарами. Остальные при наличии  тепловых резервуаров считаются необратимыми.\\
+
+Превращение механической работы во внутреннюю энергию считается необратимым при наличии сил трения, диффузии  в газах и жидкостях. Все реальные процессы считаются необратимыми, даже если их значения  максимально приближены к обратимым. Обратимые процессы рассматриваются лишь как пример реальных процессов.\\
+
+Большинство тепловых процессов протекают в одном направлении. Самопроизвольной передачи тепла от тела с низкой температурой к телу с высокой не наблюдается. Отсюда следует, что теплообмен  является необратимым процессом. \\
+
+{\bf Причины необратимости: трение, теплопередача, диффузия, дросселирование и др.}\\
+
+Все самопроизвольно протекающие процессы в изолированных термодинамических процессах характеризуются ростом энтропии.\\
+
+
+
+{\bf 2) ТД потенциалы - функции, изменение которых не зависит от пути и определяется только начальным и конечным состоянием  системы. Это функции состояния.}\\
+
+1. {\bf Внутренняя энергия: U=Q-A}.\\
+
+2.{\bf Энтальпия:  H=U+PV}. 
+
+При P=const $\Delta H= \Delta Q$\\
+
+3. {\bf Свободная энергия Гельмгольца: F=U-TS} 
+
+При T=const $\Delta F= \Delta A$, где A работа над внешними телами.\\
+
+4. {\bf Потенциал Гиббса G=H-TS=F+PV=U+PV-TS}.\\
+
+Соответствующие дифференциалы термодинамических потенциалов:
+
+Внутренняя энергия: $dU=\delta Q-\delta A=TdS-PdV$\\
+
+Энтальпия: $dH=dU+d(PV)=TdS-PdV+PdV+VdP=TdS+VdP$\\
+
+Свободная энергия Гельмгольца: $dA=dU-d(TS)=TdS-PdV-TdS-SdT=-PdV-SdT$\\
+
+Потенциал Гиббса: $dG=dH-d(TS)=TdS+VdP-TdS-SdT=VdP-SdT$\\
+
+Эти выражения математически можно рассматривать как полные дифференциалы функций двух соответствующих независимых переменных U=U(S,V)}, H=H(S,P), F=F(T,V), G=G(T,P).\\
+
+Задание любой из этих четырёх зависимостей - то есть конкретизация вида функций,  позволяет получить всю информацию о свойствах системы.\\
+
+Известно, что  смешанные производные не зависят от порядка дифференцирования, то есть\\
+
+${\frac {\partial U}{\partial V\partial S}}={\frac {\partial U}{\partial S\partial V}}}$.\\
+
+Но {\left({\frac {\partial U}{\partial V}}\right)}_{S}=-P}$\\
+
+ и {\left({\frac {\partial U}{\partial S}}\right)}_{V}=T}$, поэтому\\
+
+${\left({\frac {\partial P}{\partial S}}\right)}_{V}=-{\left({\frac {\partial T}{\partial V}}\right)}_{S}}$.\\
+
+
+Рассматривая выражения для других дифференциалов, получаем:\\
+
+
+${\left({\frac {\partial T}{\partial P}}\right)}_{S}={\left({\frac {\partial V}{\partial S}}\right)}_{P}}$,\\
+
+${\left({\frac {\partial S}{\partial V}}\right)}_{T}={\left({\frac {\partial P}{\partial T}}\right)}_{V}}$,\\
+
+${\left({\frac {\partial S}{\partial P}}\right)}_{T}=-{\left({\frac {\partial V}{\partial T}}\right)}_{P}}$ \\
+
+Эти соотношения называются соотношениями Максвелла.
+
+
+
+========================================================================
+
+\newpage
+
+{\underline\bf Задача 4.75}
+
+\vspace{0.5cm}
+
+\begin{figure}[h]
+%\begin{center}
+\includegraphics[width=12cm]{4_75_0}
+\end{figure}
+
+\vspace{0.5cm}
+
+Процесс неравновесный - система изолирована и самопроизвольно приходит в состояние теплового равновесия.\\
+
+$\triangle S=\triangle S_1+\triangle S_2$;\\
+
+$dS=C_P\frac{dT}{T}-R\frac{dP}{P}$\\
+
+$\triangle S_1=C_P\ln\frac{T_2}{T_1}-R\ln2$, т.к. $P_2=2P_1$;\\
+
+$\triangle S_2=C_P\ln\frac{T_3}{T_2}+R\ln2$, т.к. $P_2=2P_3$;\\
+
+$\triangle S=\triangle S_1+\triangle S_2=C_P\ln\left(\frac{T_2}{T_1}\frac{T_3}{T_2}\right)=C_P\ln\left(\frac{T_3}{T_1}\right) $\\
+
+$A_1=\triangle U=C_V(T_2-T_1)=2P_1(V_1-V_2)=2P_1V_1-P_2_V_2=2RT_1-RT_2$, обе части делим на $T_1 \Rightarrow$\\
+
+$C_V\left(\frac{T_2}{N_1}-1 \right)=2R-R\frac{T_2}{T_1}\Rightarrow \frac{T_2}{T_1}=\frac{C_P+R}{C_P}$\\ 
+
+$A_2=\triangle U=C_V(T_2-T_3)=P(V_3-V_2)=RT_3-(R/2)T_2 \Rightarrow \frac{T_3}{T_2}=\frac{C_P-R/2}{C_P}$\\
+
+$\triangle S=C_P\ln\frac{(C_P+R)(C_P-R/2)}{C_P^2}=\frac{5}{2}R\ln\frac{28}{25}\simeq2.5$ Дж/К;
+
+\newpage
+
+
+{\underline\bf Задача 4.43/44}
+
+
+\begin{figure}[h]
+%\begin{center}
+\includegraphics[width=12cm]{4_43_0}
+\end{figure}
+
+\vspace{1cm}
+
+
+1) Смешивание газов процесс необратимый, поэтому $TdS\geq \delta Q=dU+\delta A$;\\
+
+$T=const\Rightarrow dU=0\Rightarrow \delta A\leq TdS \Rightarrow$\\
+
+$A\leq T(S_2-S_1)=RT\left(\nu_1\ln\frac{V_1+V_2}{V_1}+\nu_2\ln\frac{V_1+V_2}{V_2}\right)\simeq1.8$ кДж;\\
+
+2) Адиабатическое смешивание: \\
+
+$\delta Q=0 \Rightarrow A=\triangle U=\nu_1C_{V_1}(T_1-T)+\nu_2C_{V_2}(T_1-T)$\\
+
+$\triangle S=\nu C_V\ln\frac{T}{T_1}+\nu R\ln\frac{V}{V_1}$;\\
+
+$TdS=\delta Q=0 \Rightarrow$\\
+
+$\nu_1C_{V_1}\ln\frac{T}{T_1}+\nu_1 R\ln\frac{V_1+V_2}{V_1}+\nu_2C_{V_2}\ln\frac{T}{T_2}+\nu_2 R\ln\frac{V_1+V_2}{V_2}=0$ Откуда\\
+
+$T=T_1\left(\frac{V_1V_2}{(V_1+V_2)^2} \right)^{1/5}=0.75 T_1=225$ К;\\
+
+$A_{max}=(\nu_1+\nu_2)C_V(T_1-T)=1.55$ кДж.
+
+ 
+\newpage
+
+{\underline\bf Задача 5.75 }
+
+\begin{figure}[h]
+%\begin{center}
+\includegraphics[width=12cm]{5_75_0}
+\end{figure}
+
+\vspace{0.5cm}
+
+$dФ=-SdT+VdP$;\\
+
+$V=\left(\frac{\partial Ф}{\partial T} \right)_T=\frac{RT}{P} \Rightarrow PV=RT$ - 1 моль идеального газа;\\
+
+$S=-\left(\frac{\partial Ф}{\partial T} \right)_P=a(1-\ln T)-\frac{aT}{T}+R\ln P-S_0=R\ln P-a\ln T=R\ln\frac{RT}{V}-a\ln T$;\\
+
+$U=-T^2\left(\frac{\partial}{\partial T}\frac{F}{T} \right)$\\
+
+$Ф=F+PV \Rightarrow F=Ф-PV; \frac{F}{T}=\frac{Ф}{T}-\frac{PV}{T}=a(1-\lnT)+R\ln P-S_0+\frac{U_0}{T}-\frac{PV}{T}$\\
+
+$U=aT-VT\left( \frac{\partial P}{\partial T} \right)_V+U_0,  \frac{\partial P}{\partial T} \right)_V=\frac{R}{V} $;\\
+
+$U=(a-R)T+U_0$\\
+
+$dU=(a-R)dT=C_V dT, (a-R)=C_V\Rightarrow a=C_P$;\\
+
+$H=U+PV=U+RT=aT+U_0$\\
+
+$U=C_V T +U_0;  H+C_P+U_0; a=C_P$
+
+
+
+\newpage
+
+
+{\underline\bf Задача 5.38}
+
+\begin{figure}[h]
+%\begin{center}
+\includegraphics[width=12cm]{5_38_0}
+\end{figure}
+
+\vspace{0.5cm}
+
+$\delta Q=TdS-PdV=TdS$ т.к. dV=0\\
+
+$dF=-SdT-PdV$\\
+
+$F=F_0-\frac{\alpha}{T}B^2, T=const$;\Rightarrow\\
+
+$S=-\left( \frac{\partial F}{\partial T} \right)_V=\frac{\alpha B^2}{T^2}$,  B меняется от $B_0$ до 0.
+
+$\triangle S=\frac{\alpha B_0^2}{T^2}$\\
+
+$\triangle Q=T\triangle S=\frac{\alpha B_0^2}{T}$
+
+
+
+
+
+
+
+
+\end{document} 
